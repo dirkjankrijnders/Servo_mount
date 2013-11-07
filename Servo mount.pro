@@ -1,4 +1,4 @@
-update=Friday, 2013 October 18 11:50:39
+update=2013 November 07, Thursday 20:18:20
 version=1
 last_client=pcbnew
 [eeschema]
@@ -72,11 +72,11 @@ EquName1=devcms
 version=1
 [pcbnew]
 version=1
-LastNetListRead=../PSSD/Hardware/MRDDC wisseldecoder.net
+LastNetListRead=Servo mount.net
 UseCmpFile=1
-PadDrill=0.6
-PadSizeH=1
-PadSizeV=1
+PadDrill=1.6
+PadSizeH=1.6
+PadSizeV=1.6
 PcbTextSizeV=1
 PcbTextSizeH=1
 PcbTextThickness=0.3
