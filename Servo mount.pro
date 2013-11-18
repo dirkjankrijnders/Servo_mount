@@ -1,6 +1,6 @@
-update=2013 November 07, Thursday 20:18:20
+update=2013 November 08, Friday 16:18:15
 version=1
-last_client=pcbnew
+last_client=kicad
 [eeschema]
 version=1
 LibDir=
@@ -68,8 +68,6 @@ version=1
 NetIExt=net
 [cvpcb/libraries]
 EquName1=devcms
-[general]
-version=1
 [pcbnew]
 version=1
 LastNetListRead=Servo mount.net
@@ -106,3 +104,5 @@ LibName13=/Users/dirkjan/Projects/Own/Kicad_Library/Crystals_RevB_25Apr2012
 LibName14=/Users/dirkjan/Projects/3rd_Party/kicad-libs/modules/c-smd
 LibName15=/Users/dirkjan/Projects/3rd_Party/kicad-libs/modules/soic
 LibName16=/Users/dirkjan/Projects/3rd_Party/Kicad_Part_Library/dp_devices
+[general]
+version=1
