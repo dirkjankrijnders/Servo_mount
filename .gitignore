@@ -1,0 +1,16 @@
+
+Output/
+
+Servo mount-cache.lib
+
+*.bak
+
+_autosave-.kicad_pcb
+
+Servo mount.net
+
+*.kicad_pcb-bak
+
+.kicad_pcb
+
+.kicad_pcb.kicad_pcb

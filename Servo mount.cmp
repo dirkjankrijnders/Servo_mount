@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-mar-25)-stable date = 2013 November 08, Friday 16:19:00
+Cmp-Mod V01 Created by CvPcb (2013-mar-25)-stable date = 2014 January 22, Wednesday 21:04:41
 
 BeginCmp
 TimeStamp = /4F71B43C;
@@ -64,10 +64,10 @@ IdModule  = DIPSMD4;
 EndCmp
 
 BeginCmp
-TimeStamp = /527A6446;
+TimeStamp = /52E02443;
 Reference = IC1;
-ValeurCmp = ATTINY45-S;
-IdModule  = SOIC-8;
+ValeurCmp = ATTINY84-SS;
+IdModule  = SOIC-14;
 EndCmp
 
 BeginCmp
@@ -89,6 +89,13 @@ TimeStamp = /505F5A61;
 Reference = P1;
 ValeurCmp = CONN_3X2;
 IdModule  = pin_array_3x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /52E0266A;
+Reference = P2;
+ValeurCmp = CONN_2;
+IdModule  = SIL-2;
 EndCmp
 
 BeginCmp

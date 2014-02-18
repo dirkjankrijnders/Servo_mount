@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 2013 November 08, Friday 10:55:08
+EESchema Schematic File Version 2  date 2014 January 22, Wednesday 22:25:23
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -36,7 +36,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "MDRRC Servo/Switch Decoder"
-Date "7 nov 2013"
+Date "22 jan 2014"
 Rev "1"
 Comp "Pyth"
 Comment1 ""
@@ -44,7 +44,7 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text GLabel 2700 4100 0    47   Input ~ 0
+Text GLabel 5600 4650 2    47   Input ~ 0
 Rail signal
 Text GLabel 7850 1700 3    60   Output ~ 0
 Rail signal
@@ -117,56 +117,56 @@ $EndComp
 $Comp
 L GND #PWR04
 U 1 1 4F71C50E
-P 1100 4800
-F 0 "#PWR04" H 1100 4800 30  0001 C CNN
-F 1 "GND" H 1100 4730 30  0001 C CNN
-F 2 "" H 1100 4800 60  0001 C CNN
-F 3 "" H 1100 4800 60  0001 C CNN
-	1    1100 4800
+P 6100 5350
+F 0 "#PWR04" H 6100 5350 30  0001 C CNN
+F 1 "GND" H 6100 5280 30  0001 C CNN
+F 2 "" H 6100 5350 60  0001 C CNN
+F 3 "" H 6100 5350 60  0001 C CNN
+	1    6100 5350
 	1    0    0    -1  
 $EndComp
 $Comp
 L +5V #PWR05
 U 1 1 4F71C3DA
-P 1100 2850
-F 0 "#PWR05" H 1100 2940 20  0001 C CNN
-F 1 "+5V" H 1100 2940 30  0000 C CNN
-F 2 "" H 1100 2850 60  0001 C CNN
-F 3 "" H 1100 2850 60  0001 C CNN
-	1    1100 2850
+P 6100 4100
+F 0 "#PWR05" H 6100 4190 20  0001 C CNN
+F 1 "+5V" H 6100 4190 30  0000 C CNN
+F 2 "" H 6100 4100 60  0001 C CNN
+F 3 "" H 6100 4100 60  0001 C CNN
+	1    6100 4100
 	1    0    0    -1  
 $EndComp
 $Comp
 L R R1
 U 1 1 4F71C3C9
-P 1100 3200
-F 0 "R1" V 1180 3200 50  0000 C CNN
-F 1 "10k" V 1100 3200 50  0000 C CNN
-F 2 "" H 1100 3200 60  0001 C CNN
-F 3 "" H 1100 3200 60  0001 C CNN
-	1    1100 3200
+P 6100 4450
+F 0 "R1" V 6180 4450 50  0000 C CNN
+F 1 "10k" V 6100 4450 50  0000 C CNN
+F 2 "" H 6100 4450 60  0001 C CNN
+F 3 "" H 6100 4450 60  0001 C CNN
+	1    6100 4450
 	1    0    0    -1  
 $EndComp
 $Comp
 L GND #GND06
 U 1 1 4F71C303
-P 5650 4650
-F 0 "#GND06" H 5650 4650 30  0001 C CNN
-F 1 "GND" H 5650 4580 30  0001 C CNN
-F 2 "" H 5650 4650 60  0001 C CNN
-F 3 "" H 5650 4650 60  0001 C CNN
-	1    5650 4650
+P 3050 4850
+F 0 "#GND06" H 3050 4850 30  0001 C CNN
+F 1 "GND" H 3050 4780 30  0001 C CNN
+F 2 "" H 3050 4850 60  0001 C CNN
+F 3 "" H 3050 4850 60  0001 C CNN
+	1    3050 4850
 	1    0    0    -1  
 $EndComp
 $Comp
 L +5V #PWR07
 U 1 1 4F71C2EC
-P 5650 3700
-F 0 "#PWR07" H 5650 3790 20  0001 C CNN
-F 1 "+5V" H 5650 3790 30  0000 C CNN
-F 2 "" H 5650 3700 60  0001 C CNN
-F 3 "" H 5650 3700 60  0001 C CNN
-	1    5650 3700
+P 3050 3450
+F 0 "#PWR07" H 3050 3540 20  0001 C CNN
+F 1 "+5V" H 3050 3540 30  0000 C CNN
+F 2 "" H 3050 3450 60  0001 C CNN
+F 3 "" H 3050 3450 60  0001 C CNN
+	1    3050 3450
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -205,23 +205,23 @@ $EndComp
 $Comp
 L C C1
 U 1 1 4F71B43C
-P 1100 4450
-F 0 "C1" H 1150 4550 50  0000 L CNN
-F 1 "100n" H 1150 4350 50  0000 L CNN
-F 2 "" H 1100 4450 60  0001 C CNN
-F 3 "" H 1100 4450 60  0001 C CNN
-	1    1100 4450
+P 6100 5000
+F 0 "C1" H 6150 5100 50  0000 L CNN
+F 1 "100n" H 6150 4900 50  0000 L CNN
+F 2 "" H 6100 5000 60  0001 C CNN
+F 3 "" H 6100 5000 60  0001 C CNN
+	1    6100 5000
 	1    0    0    -1  
 $EndComp
 $Comp
 L C C5
 U 1 1 4F71B422
-P 5650 4150
-F 0 "C5" V 5750 4250 50  0000 L CNN
-F 1 "100n" V 5750 3900 50  0000 L CNN
-F 2 "" H 5650 4150 60  0001 C CNN
-F 3 "" H 5650 4150 60  0001 C CNN
-	1    5650 4150
+P 3050 4050
+F 0 "C5" V 3150 4150 50  0000 L CNN
+F 1 "100n" V 3150 3800 50  0000 L CNN
+F 2 "" H 3050 4050 60  0001 C CNN
+F 3 "" H 3050 4050 60  0001 C CNN
+	1    3050 4050
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -293,7 +293,7 @@ F 4 "reichelt.de" H 4750 1500 60  0001 C CNN "reichelt"
 $EndComp
 Text Label 4300 2050 0    60   ~ 0
 GND
-Text GLabel 2700 4200 0    47   Output ~ 0
+Text GLabel 5600 4250 2    47   Output ~ 0
 GND FET
 Text GLabel 8500 1000 0    60   Input ~ 0
 GND FET
@@ -363,9 +363,9 @@ F 3 "" H 9700 600 60  0001 C CNN
 	1    9700 600 
 	-1   0    0    1   
 $EndComp
-Text GLabel 2700 4000 0    47   Output ~ 0
+Text GLabel 5600 4450 2    47   Output ~ 0
 PB3
-Text GLabel 2700 4300 0    47   Output ~ 0
+Text GLabel 5600 4550 2    47   Output ~ 0
 PB4
 Text Notes 3850 850  2    59   ~ 0
 Power
@@ -528,17 +528,6 @@ F 3 "" H 10900 1500 60  0001 C CNN
 	1    10900 1500
 	1    0    0    -1  
 $EndComp
-$Comp
-L ATTINY45-S IC1
-U 1 1 527A6446
-P 3050 3800
-F 0 "IC1" H 3150 3850 60  0000 C CNN
-F 1 "ATTINY45-S" H 5050 3050 60  0000 C CNN
-F 2 "SO8-200" H 3300 3050 60  0001 C CNN
-F 3 "~" H 3050 3800 60  0000 C CNN
-	1    3050 3800
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	1800 2300 2850 2300
 Wire Wire Line
@@ -548,7 +537,7 @@ Wire Wire Line
 Wire Wire Line
 	5450 2100 5450 1950
 Wire Wire Line
-	1100 2850 1100 2950
+	6100 4100 6100 4200
 Connection ~ 5450 1450
 Wire Wire Line
 	5450 1350 5450 1550
@@ -557,10 +546,7 @@ Wire Wire Line
 Wire Wire Line
 	3650 1950 3650 2100
 Wire Wire Line
-	1100 4650 1100 4800
-Wire Wire Line
-	1100 3450 1100 4250
-Connection ~ 1100 3600
+	6100 5200 6100 5350
 Wire Wire Line
 	1900 600  1900 1050
 Wire Wire Line
@@ -648,9 +634,7 @@ Wire Wire Line
 Wire Wire Line
 	1600 7050 1350 7050
 Wire Wire Line
-	1600 7250 1450 7250
-Wire Wire Line
-	1450 7250 1450 3600
+	1350 7250 1600 7250
 Wire Notes Line
 	500  6550 3000 6550
 Wire Notes Line
@@ -683,25 +667,6 @@ Wire Wire Line
 	10900 1350 10900 1500
 Wire Wire Line
 	3650 1550 3650 1450
-Wire Wire Line
-	5650 4650 5650 4350
-Wire Wire Line
-	5550 4400 5650 4400
-Connection ~ 5650 4400
-Wire Wire Line
-	5650 3700 5650 3950
-Wire Wire Line
-	5550 3900 5650 3900
-Connection ~ 5650 3900
-Wire Wire Line
-	2700 4100 2850 4100
-Wire Wire Line
-	2850 4400 1450 4400
-Connection ~ 1450 4400
-Wire Wire Line
-	2700 4300 2850 4300
-Wire Wire Line
-	2700 4000 2850 4000
 $Comp
 L NPN Q2
 U 1 1 527A9E34
@@ -779,33 +744,71 @@ Text GLabel 2450 7050 2    60   Input ~ 0
 DIS_SIGNAL
 Wire Wire Line
 	2450 7050 2400 7050
-Text GLabel 2650 3650 0    60   Input ~ 0
+Text GLabel 5600 3850 2    60   Input ~ 0
 DIS_SIGNAL
-Wire Wire Line
-	2700 3900 2850 3900
-Wire Wire Line
-	2700 4200 2850 4200
-Wire Wire Line
-	1450 3600 1100 3600
-Text GLabel 2700 3900 0    60   Input ~ 0
+Text GLabel 5600 4150 2    60   Input ~ 0
 MOSI
-Text GLabel 2700 3750 0    60   Input ~ 0
+Text GLabel 5600 4050 2    60   Input ~ 0
 MISO
-Wire Wire Line
-	2700 3750 2750 3750
-Wire Wire Line
-	2750 3750 2750 4000
-Connection ~ 2750 4000
-Text GLabel 2700 4500 0    60   Input ~ 0
+Text GLabel 5600 3950 2    60   Input ~ 0
 SCK
+$Comp
+L ATTINY84-SS IC1
+U 1 1 52E02443
+P 4200 4150
+F 0 "IC1" H 3450 4900 60  0000 C CNN
+F 1 "ATTINY84-SS" H 4750 3400 60  0000 C CNN
+F 2 "SO14" H 3500 3400 60  0001 C CNN
+F 3 "~" H 4200 4150 60  0000 C CNN
+	1    4200 4150
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
-	2700 4500 2750 4500
+	3050 3450 3050 3850
 Wire Wire Line
-	2750 4500 2750 4100
-Connection ~ 2750 4100
+	3050 3550 3150 3550
+Connection ~ 3050 3550
 Wire Wire Line
-	2650 3650 2800 3650
+	3150 4750 3050 4750
 Wire Wire Line
-	2800 3650 2800 4200
-Connection ~ 2800 4200
+	3050 4250 3050 4850
+Connection ~ 3050 4750
+$Comp
+L CONN_2 P2
+U 1 1 52E0266A
+P 5450 5100
+F 0 "P2" V 5400 5100 40  0000 C CNN
+F 1 "CONN_2" V 5500 5100 40  0000 C CNN
+F 2 "" H 5450 5100 60  0000 C CNN
+F 3 "" H 5450 5100 60  0000 C CNN
+	1    5450 5100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6100 4700 6100 4800
+Wire Wire Line
+	5550 4750 6200 4750
+Connection ~ 6100 4750
+Wire Wire Line
+	5350 4750 5250 4750
+Wire Wire Line
+	5600 3850 5250 3850
+Wire Wire Line
+	5600 4050 5250 4050
+Wire Wire Line
+	5600 4150 5250 4150
+Wire Wire Line
+	5250 4250 5600 4250
+Wire Wire Line
+	5250 4450 5600 4450
+Wire Wire Line
+	5250 4550 5600 4550
+Wire Wire Line
+	5250 4650 5600 4650
+Wire Wire Line
+	5250 3950 5600 3950
+Text GLabel 1350 7250 0    60   Output ~ 0
+Reset
+Text GLabel 6200 4750 2    60   Input ~ 0
+Reset
 $EndSCHEMATC
