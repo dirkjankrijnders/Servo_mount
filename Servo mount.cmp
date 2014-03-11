@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-mar-25)-stable date = 2014 January 22, Wednesday 21:04:41
+Cmp-Mod V01 Created by CvPcb (2013-jul-07)-stable date = 2014 March 10, Monday 17:25:20
 
 BeginCmp
 TimeStamp = /4F71B43C;
@@ -71,6 +71,34 @@ IdModule  = SOIC-14;
 EndCmp
 
 BeginCmp
+TimeStamp = /531DE3BB;
+Reference = J1;
+ValeurCmp = SOLDER_PAD;
+IdModule  = solder_pad_2mm_fb;
+EndCmp
+
+BeginCmp
+TimeStamp = /531DE3B5;
+Reference = J2;
+ValeurCmp = SOLDER_PAD;
+IdModule  = solder_pad_2mm_fb;
+EndCmp
+
+BeginCmp
+TimeStamp = /531DE394;
+Reference = J3;
+ValeurCmp = SOLDER_PAD;
+IdModule  = solder_pad_2mm_fb;
+EndCmp
+
+BeginCmp
+TimeStamp = /531DEBB9;
+Reference = J4;
+ValeurCmp = ~;
+IdModule  = solder_jumper_conn;
+EndCmp
+
+BeginCmp
 TimeStamp = /505F2ABD;
 Reference = K5;
 ValeurCmp = CONN_3;
@@ -89,13 +117,6 @@ TimeStamp = /505F5A61;
 Reference = P1;
 ValeurCmp = CONN_3X2;
 IdModule  = pin_array_3x2;
-EndCmp
-
-BeginCmp
-TimeStamp = /52E0266A;
-Reference = P2;
-ValeurCmp = CONN_2;
-IdModule  = SIL-2;
 EndCmp
 
 BeginCmp

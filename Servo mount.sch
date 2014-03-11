@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 2014 January 22, Wednesday 22:25:23
+EESchema Schematic File Version 2
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -29,6 +29,7 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:pyth
 LIBS:Servo mount-cache
 EELAYER 27 0
 EELAYER END
@@ -36,7 +37,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "MDRRC Servo/Switch Decoder"
-Date "22 jan 2014"
+Date "10 mar 2014"
 Rev "1"
 Comp "Pyth"
 Comment1 ""
@@ -773,21 +774,8 @@ Wire Wire Line
 Wire Wire Line
 	3050 4250 3050 4850
 Connection ~ 3050 4750
-$Comp
-L CONN_2 P2
-U 1 1 52E0266A
-P 5450 5100
-F 0 "P2" V 5400 5100 40  0000 C CNN
-F 1 "CONN_2" V 5500 5100 40  0000 C CNN
-F 2 "" H 5450 5100 60  0000 C CNN
-F 3 "" H 5450 5100 60  0000 C CNN
-	1    5450 5100
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	6100 4700 6100 4800
-Wire Wire Line
-	5550 4750 6200 4750
 Connection ~ 6100 4750
 Wire Wire Line
 	5350 4750 5250 4750
@@ -811,4 +799,56 @@ Text GLabel 1350 7250 0    60   Output ~ 0
 Reset
 Text GLabel 6200 4750 2    60   Input ~ 0
 Reset
+$Comp
+L SOLDER_PAD J3
+U 1 1 531DE394
+P 5800 3750
+F 0 "J3" V 5800 3850 60  0000 C CNN
+F 1 "SOLDER_PAD" V 5800 4200 60  0000 C CNN
+F 2 "" H 5800 3750 60  0000 C CNN
+F 3 "" H 5800 3750 60  0000 C CNN
+	1    5800 3750
+	0    1    1    0   
+$EndComp
+$Comp
+L SOLDER_PAD J2
+U 1 1 531DE3B5
+P 5800 3650
+F 0 "J2" V 5800 3750 60  0000 C CNN
+F 1 "SOLDER_PAD" V 5800 4100 60  0000 C CNN
+F 2 "" H 5800 3650 60  0000 C CNN
+F 3 "" H 5800 3650 60  0000 C CNN
+	1    5800 3650
+	0    1    1    0   
+$EndComp
+$Comp
+L SOLDER_PAD J1
+U 1 1 531DE3BB
+P 5800 3550
+F 0 "J1" V 5800 3650 60  0000 C CNN
+F 1 "SOLDER_PAD" V 5800 4000 60  0000 C CNN
+F 2 "" H 5800 3550 60  0000 C CNN
+F 3 "" H 5800 3550 60  0000 C CNN
+	1    5800 3550
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5500 3550 5250 3550
+Wire Wire Line
+	5500 3650 5250 3650
+Wire Wire Line
+	5250 3750 5500 3750
+$Comp
+L SOLDER_JUMPER_CONN J4
+U 1 1 531DEBB9
+P 5500 4750
+F 0 "J4" H 5500 4600 60  0000 C CNN
+F 1 "~" H 5550 4900 60  0000 C CNN
+F 2 "" H 5450 4850 60  0000 C CNN
+F 3 "" H 5450 4850 60  0000 C CNN
+	1    5500 4750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5700 4750 6200 4750
 $EndSCHEMATC
