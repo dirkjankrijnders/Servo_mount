@@ -37,7 +37,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "MDRRC Servo/Switch Decoder"
-Date "10 mar 2014"
+Date "13 mar 2014"
 Rev "1"
 Comp "Pyth"
 Comment1 ""
@@ -788,10 +788,6 @@ Wire Wire Line
 Wire Wire Line
 	5250 4250 5600 4250
 Wire Wire Line
-	5250 4450 5600 4450
-Wire Wire Line
-	5250 4550 5600 4550
-Wire Wire Line
 	5250 4650 5600 4650
 Wire Wire Line
 	5250 3950 5600 3950
@@ -851,4 +847,14 @@ F 3 "" H 5450 4850 60  0000 C CNN
 $EndComp
 Wire Wire Line
 	5700 4750 6200 4750
+Wire Wire Line
+	5600 4450 5450 4450
+Wire Wire Line
+	5450 4450 5450 4150
+Connection ~ 5450 4150
+Wire Wire Line
+	5600 4550 5400 4550
+Wire Wire Line
+	5400 4550 5400 4050
+Connection ~ 5400 4050
 $EndSCHEMATC
