@@ -9,7 +9,9 @@ The design is based on the [PSSD](https://github.com/dirkjankrijnders/PSSD), how
 
 The decoder has not yet been tested on the PCB, but works on the breadboard. It support two servo's, so only half of the PCB's need their components placed, the second servo can be connected via standard servo wires.
 
-I already found some issues with the electronics side of the decoder, so a second revision is planned.
+I already found some issues with the electronics side of the decoder, so a second revision is planned. The second revision fixes most footprint issues as well as allowing mount in both left and right switches. Also all components have been moved to the back of the PCB so the build decoder should flush in the C rail ballast form.
+
+![Second revision boards](media/Componentside.png)(media/Servoside.png)
 
 Cost/BOM
 --------
