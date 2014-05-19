@@ -30,3 +30,14 @@ Cost/BOM
 </table>
 \* Estimate for orders of 10.<br/>
 \** SMD 0805 Components from cost almost nothing in bulk (&gt; 10)
+
+Firmware
+--------
+To make to PSSD firmware:
+
+	make BOARD=CSMD
+
+To set the fuse and program both flash and eeprom:
+
+	avrdude -p t44 -U lfuse:w:0xe2:m -U hfuse:w:0xdf:m -U efuse:w:0xff:m
+	make flash BOARD=CSMD
