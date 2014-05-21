@@ -11,7 +11,8 @@ The decoder has not yet been tested on the PCB, but works on the breadboard. It 
 
 I already found some issues with the electronics side of the decoder, so a second revision is planned. The second revision fixes most footprint issues as well as allowing mount in both left and right switches. Also all components have been moved to the back of the PCB so the build decoder should flush in the C rail ballast form.
 
-![Second revision boards](media/Componentside.png)(media/Servoside.png)
+![Second revision boards](media/Componentside.png)
+![](media/Servoside.png)
 
 Cost/BOM
 --------
