@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name Pyth)(type Github)(uri ${KIPRJMOD}/modules)(options "")(descr ""))
+)
