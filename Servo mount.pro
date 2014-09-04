@@ -1,4 +1,4 @@
-update=Wed 20 Aug 2014 09:16:34 AM CEST
+update=Wed 20 Aug 2014 11:59:05 AM CEST
 version=1
 last_client=kicad
 [cvpcb]
@@ -8,43 +8,6 @@ NetIExt=net
 EquName1=devcms
 [general]
 version=1
-[pcbnew]
-version=1
-LastNetListRead=Servo mount.net
-UseCmpFile=1
-PadDrill=1.000000000000
-PadDrillOvalY=1.000000000000
-PadSizeH=2.000000000000
-PadSizeV=2.000000000000
-PcbTextSizeV=1.000000000000
-PcbTextSizeH=1.000000000000
-PcbTextThickness=0.300000000000
-ModuleTextSizeV=1.000000000000
-ModuleTextSizeH=1.000000000000
-ModuleTextSizeThickness=0.150000000000
-SolderMaskClearance=0.000000000000
-SolderMaskMinWidth=0.000000000000
-DrawSegmentWidth=0.200000000000
-BoardOutlineThickness=0.150000000000
-ModuleOutlineThickness=0.150000000000
-[pcbnew/libraries]
-LibDir=
-LibName1=/Users/dirkjan/Projects/Own/Kicad_Library/pyth
-LibName2=sockets
-LibName3=connect
-LibName4=discret
-LibName5=pin_array
-LibName6=divers
-LibName7=libcms
-LibName8=display
-LibName9=led
-LibName10=dip_sockets
-LibName11=pga_sockets
-LibName12=valves
-LibName13=/Users/dirkjan/Projects/Own/Kicad_Library/Crystals_RevB_25Apr2012
-LibName14=/Users/dirkjan/Projects/3rd_Party/kicad-libs/modules/c-smd
-LibName15=/Users/dirkjan/Projects/3rd_Party/kicad-libs/modules/soic
-LibName16=/Users/dirkjan/Projects/3rd_Party/Kicad_Part_Library/dp_devices
 [eeschema]
 version=1
 LibDir=../pyth_kicad
@@ -80,3 +43,23 @@ LibName28=atmel
 LibName29=contrib
 LibName30=valves
 LibName31=pyth
+[pcbnew]
+version=1
+PageLayoutDescrFile=
+LastNetListRead=Servo mount.net
+UseCmpFile=1
+PadDrill=2.2
+PadDrillOvalY=2.2
+PadSizeH=2.2
+PadSizeV=2.2
+PcbTextSizeV=1
+PcbTextSizeH=1
+PcbTextThickness=0.3
+ModuleTextSizeV=1
+ModuleTextSizeH=1
+ModuleTextSizeThickness=0.15
+SolderMaskClearance=0
+SolderMaskMinWidth=0
+DrawSegmentWidth=0.2
+BoardOutlineThickness=2
+ModuleOutlineThickness=2
