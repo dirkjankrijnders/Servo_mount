@@ -22,6 +22,15 @@ What is missing? Exactly, the hole for the servo. But a drill can fix that, the 
 
 After those mechanical problems the electronics all work! So the work on the firmware commenced in full, as per August 16th speed control and a programmer for the I2C interface have been implemented. The manual switch button remain to be implemented.
 
+Revision 3
+----------
+PCB's for rev.3 were ordered on December 2nd and the changes are:
+- Footprint for G-90 servo's
+- More I/O pads
+- Shape changes to fit under 2471? switches
+- moved the solder pads of C4 and the rail power as to not make short-cut contact when the lever passes.
+
+Pictures follow when the boards arrive
 Cost/BOM
 --------
 
