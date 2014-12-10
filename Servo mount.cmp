@@ -1,12 +1,4 @@
-Cmp-Mod V01 Genere par PcbNew le Tue 19 Aug 2014 09:51:52 PM CEST
-
-BeginCmp
-TimeStamp = 527BE73E
-Path = /505C7188
-Reference = U2;
-ValeurCmp = BUZ11;
-IdModule  = TO220_VERT;
-EndCmp
+Cmp-Mod V01 Genere par PcbNew le Sun 02 Nov 2014 11:20:07 PM CET
 
 BeginCmp
 TimeStamp = 527CEAE9
@@ -278,6 +270,54 @@ Path = /505F2ACC
 Reference = K6;
 ValeurCmp = CONN_3;
 IdModule  = SIL-3;
+EndCmp
+
+BeginCmp
+TimeStamp = 544C2A80
+Path = 
+Reference = SG90_;
+ValeurCmp = VAL**;
+IdModule  = Pyth_servos:Micro_servo_SG90;
+EndCmp
+
+BeginCmp
+TimeStamp = 5452B52D
+Path = /5456AC93
+Reference = J5;
+ValeurCmp = SOLDER_PAD;
+IdModule  = Pyth:solder_pad_2mm_fb;
+EndCmp
+
+BeginCmp
+TimeStamp = 5452B533
+Path = /5456AD02
+Reference = J6;
+ValeurCmp = SOLDER_PAD;
+IdModule  = Pyth:solder_pad_2mm_fb;
+EndCmp
+
+BeginCmp
+TimeStamp = 5457020D
+Path = /5450B585
+Reference = J7;
+ValeurCmp = SOLDER_PAD;
+IdModule  = Pyth:solder_pad_2mm_fb;
+EndCmp
+
+BeginCmp
+TimeStamp = 54570213
+Path = /5450B5C4
+Reference = J8;
+ValeurCmp = SOLDER_PAD;
+IdModule  = Pyth:solder_pad_2mm_fb;
+EndCmp
+
+BeginCmp
+TimeStamp = 544C2B92
+Path = /505C7188
+Reference = U2;
+ValeurCmp = BUZ11;
+IdModule  = Transistors_TO-220:TO-220_FET-GDS_Vertical;
 EndCmp
 
 EndListe
