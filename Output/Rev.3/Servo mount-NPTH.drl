@@ -1,0 +1,22 @@
+M48
+;DRILL file {kicad (2014-jul-16 BZR unknown)-product} date Thu 04 Sep 2014 10:50:11 PM CEST
+;FORMAT={-:-/ absolute / inch / decimal}
+FMAT,2
+INCH,TZ
+T1C0.063
+T2C0.079
+T3C0.087
+%
+G90
+G05
+M72
+T1
+X4.2323Y-5.2323
+T2
+X5.5727Y-4.2651
+X6.4588Y-4.5026
+T3
+X4.2323Y-4.0354
+X6.6929Y-4.6339
+T0
+M30
