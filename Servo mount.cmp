@@ -1,71 +1,23 @@
-Cmp-Mod V01 Genere par PcbNew le 2014 March 19, Wednesday 16:36:09
+Cmp-Mod V01 Genere par PcbNew le Sun 02 Nov 2014 11:20:07 PM CET
 
 BeginCmp
-TimeStamp = 5329B925
-Path = /505F2ACC
-Reference = K6;
-ValeurCmp = CONN_3;
-IdModule  = SIL-3;
+TimeStamp = 527CEAE9
+Path = /4F71BF8F
+Reference = C4;
+ValeurCmp = 220u;
+IdModule  = Solderpad_2;
 EndCmp
 
 BeginCmp
-TimeStamp = 5329B918
-Path = /505F5A61
-Reference = P1;
-ValeurCmp = CONN_3X2;
-IdModule  = pin_array_3x2;
+TimeStamp = 527BE960
+Path = /50532C78
+Reference = ~;
+ValeurCmp = ~;
+IdModule  = Solderpad_2;
 EndCmp
 
 BeginCmp
-TimeStamp = 5329B90C
-Path = /4F71B43C
-Reference = C1;
-ValeurCmp = 100n;
-IdModule  = SM0805;
-EndCmp
-
-BeginCmp
-TimeStamp = 5329B900
-Path = /505C6FA7
-Reference = R3;
-ValeurCmp = 10k;
-IdModule  = SM0805;
-EndCmp
-
-BeginCmp
-TimeStamp = 5329B8F4
-Path = /505F02A3
-Reference = R5;
-ValeurCmp = 1k;
-IdModule  = SM0805;
-EndCmp
-
-BeginCmp
-TimeStamp = 5329B8E8
-Path = /505F02B2
-Reference = R6;
-ValeurCmp = 1k;
-IdModule  = SM0805;
-EndCmp
-
-BeginCmp
-TimeStamp = 5329B8DC
-Path = /50A0901F
-Reference = R12;
-ValeurCmp = 4k7;
-IdModule  = SM0805;
-EndCmp
-
-BeginCmp
-TimeStamp = 5329B8CF
-Path = /505C7188
-Reference = U2;
-ValeurCmp = BUZ11;
-IdModule  = TO220_VERT;
-EndCmp
-
-BeginCmp
-TimeStamp = 5329B8C5
+TimeStamp = 52614630
 Path = 
 Reference = Micro servo;
 ValeurCmp = VAL**;
@@ -73,11 +25,11 @@ IdModule  = Micro_servo;
 EndCmp
 
 BeginCmp
-TimeStamp = 5329B8BA
-Path = /505F2ABD
-Reference = K5;
-ValeurCmp = CONN_3;
-IdModule  = SIL-3;
+TimeStamp = 531DE7D8
+Path = /5329B194
+Reference = J4;
+ValeurCmp = ~;
+IdModule  = solder_jumper_conn;
 EndCmp
 
 BeginCmp
@@ -97,66 +49,34 @@ IdModule  = DIPSMD4;
 EndCmp
 
 BeginCmp
-TimeStamp = 52614630
-Path = 
-Reference = Micro servo;
-ValeurCmp = VAL**;
-IdModule  = Micro_servo;
-EndCmp
-
-BeginCmp
-TimeStamp = 527BE960
-Path = /50532C78
-Reference = CON1;
-ValeurCmp = 2PIN_SCREWTERMINAL;
-IdModule  = Solderpad_2;
-EndCmp
-
-BeginCmp
-TimeStamp = 527CEAE9
-Path = /4F71BF8F
-Reference = C4;
-ValeurCmp = 220u;
-IdModule  = Solderpad_2;
-EndCmp
-
-BeginCmp
 TimeStamp = 527BE955
 Path = /50CF3AAB
-Reference = CON2;
-ValeurCmp = 2PIN_SCREWTERMINAL;
+Reference = ~;
+ValeurCmp = ~;
 IdModule  = Solderpad_2;
-EndCmp
-
-BeginCmp
-TimeStamp = 527BE73E
-Path = /505C7188
-Reference = U2;
-ValeurCmp = BUZ11;
-IdModule  = TO220_VERT;
 EndCmp
 
 BeginCmp
 TimeStamp = 5260F7D0
 Path = 
-Reference = M2;
-ValeurCmp = VAL**;
+Reference = ~;
+ValeurCmp = ~;
 IdModule  = M2;
 EndCmp
 
 BeginCmp
-TimeStamp = 5260F833
+TimeStamp = 533C6105
 Path = 
-Reference = M2;
-ValeurCmp = VAL**;
+Reference = ~;
+ValeurCmp = ~;
 IdModule  = M2;
 EndCmp
 
 BeginCmp
 TimeStamp = 5260F89F
 Path = 
-Reference = M2;
-ValeurCmp = VAL**;
+Reference = ~;
+ValeurCmp = ~;
 IdModule  = M2;
 EndCmp
 
@@ -169,7 +89,7 @@ IdModule  = SOT23;
 EndCmp
 
 BeginCmp
-TimeStamp = 527BE9AA
+TimeStamp = 532B16CD
 Path = /527A9E34
 Reference = Q2;
 ValeurCmp = BC847;
@@ -178,9 +98,9 @@ EndCmp
 
 BeginCmp
 TimeStamp = 527BE9D7
-Path = /50594DD1
+Path = /5329B3D5
 Reference = U1;
-ValeurCmp = UA78L05;
+ValeurCmp = uA78L05;
 IdModule  = SO8E;
 EndCmp
 
@@ -345,19 +265,59 @@ IdModule  = solder_pad_2mm_fb;
 EndCmp
 
 BeginCmp
-TimeStamp = 531DE7D8
-Path = /531DEBB9
-Reference = J4;
-ValeurCmp = ~;
-IdModule  = solder_jumper_conn;
-EndCmp
-
-BeginCmp
 TimeStamp = 527BEAA5
 Path = /505F2ACC
 Reference = K6;
 ValeurCmp = CONN_3;
 IdModule  = SIL-3;
+EndCmp
+
+BeginCmp
+TimeStamp = 544C2A80
+Path = 
+Reference = SG90_;
+ValeurCmp = VAL**;
+IdModule  = Pyth_servos:Micro_servo_SG90;
+EndCmp
+
+BeginCmp
+TimeStamp = 5452B52D
+Path = /5456AC93
+Reference = J5;
+ValeurCmp = SOLDER_PAD;
+IdModule  = Pyth:solder_pad_2mm_fb;
+EndCmp
+
+BeginCmp
+TimeStamp = 5452B533
+Path = /5456AD02
+Reference = J6;
+ValeurCmp = SOLDER_PAD;
+IdModule  = Pyth:solder_pad_2mm_fb;
+EndCmp
+
+BeginCmp
+TimeStamp = 5457020D
+Path = /5450B585
+Reference = J7;
+ValeurCmp = SOLDER_PAD;
+IdModule  = Pyth:solder_pad_2mm_fb;
+EndCmp
+
+BeginCmp
+TimeStamp = 54570213
+Path = /5450B5C4
+Reference = J8;
+ValeurCmp = SOLDER_PAD;
+IdModule  = Pyth:solder_pad_2mm_fb;
+EndCmp
+
+BeginCmp
+TimeStamp = 544C2B92
+Path = /505C7188
+Reference = U2;
+ValeurCmp = BUZ11;
+IdModule  = Transistors_TO-220:TO-220_FET-GDS_Vertical;
 EndCmp
 
 EndListe
