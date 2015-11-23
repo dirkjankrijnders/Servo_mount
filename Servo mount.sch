@@ -1,5 +1,4 @@
 EESchema Schematic File Version 2
-LIBS:pyth
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -11,7 +10,6 @@ LIBS:cmos4000
 LIBS:adc-dac
 LIBS:memory
 LIBS:xilinx
-LIBS:special
 LIBS:microcontrollers
 LIBS:dsp
 LIBS:microchip
@@ -511,20 +509,20 @@ Wire Wire Line
 Wire Wire Line
 	1800 1550 1800 2300
 Wire Wire Line
-	6200 2000 6200 1850
+	6200 1800 6200 2000
 Wire Wire Line
-	5450 2100 5450 1950
+	5450 1900 5450 2100
 Wire Wire Line
-	6100 4100 6100 4200
+	6100 4100 6100 4300
 Connection ~ 5450 1450
 Wire Wire Line
-	5450 1350 5450 1550
+	5450 1350 5450 1600
 Wire Wire Line
-	4050 2100 4050 1950
+	4050 1900 4050 2100
 Wire Wire Line
-	3650 1950 3650 2100
+	3650 1900 3650 2100
 Wire Wire Line
-	6100 5200 6100 5350
+	6100 5150 6100 5350
 Wire Wire Line
 	1900 600  1900 1050
 Wire Wire Line
@@ -534,7 +532,7 @@ Wire Notes Line
 Wire Wire Line
 	1900 1050 1400 1050
 Wire Wire Line
-	4050 1450 4050 1550
+	4050 1450 4050 1600
 Connection ~ 3650 1450
 Connection ~ 4050 1450
 Wire Wire Line
@@ -557,14 +555,14 @@ Wire Wire Line
 Wire Notes Line
 	8000 2600 6000 2600
 Wire Wire Line
-	8500 1000 8600 1000
+	8500 1000 8700 1000
 Wire Wire Line
-	9100 1000 9350 1000
+	9000 1000 9350 1000
 Wire Wire Line
-	9250 1100 9250 1000
+	9250 1000 9250 1200
 Connection ~ 9250 1000
 Wire Wire Line
-	9250 1650 9250 1600
+	9250 1500 9250 1650
 Wire Wire Line
 	9650 1650 9650 1150
 Wire Wire Line
@@ -574,11 +572,11 @@ Wire Notes Line
 Wire Notes Line
 	8000 1800 11200 1800
 Wire Wire Line
-	9400 5950 9550 5950
+	9400 5950 9650 5950
 Wire Wire Line
-	9400 5800 9550 5800
+	9400 5800 9650 5800
 Wire Wire Line
-	10050 5950 10500 5950
+	9950 5950 10500 5950
 Wire Notes Line
 	8000 7200 8500 7200
 Wire Wire Line
@@ -624,9 +622,9 @@ Wire Wire Line
 Wire Wire Line
 	7600 1150 7600 950 
 Wire Wire Line
-	7600 2200 7600 2100
+	7600 2000 7600 2200
 Wire Wire Line
-	7600 1550 7600 1600
+	7600 1550 7600 1700
 Wire Wire Line
 	6200 1350 7300 1350
 Wire Wire Line
@@ -644,7 +642,7 @@ Wire Wire Line
 Wire Wire Line
 	10900 1350 10900 1500
 Wire Wire Line
-	3650 1550 3650 1450
+	3650 1450 3650 1600
 $Comp
 L NPN Q2
 U 1 1 527A9E34
@@ -657,7 +655,7 @@ F 3 "" H 7500 1350 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BC847 Q1
+L NPN Q1
 U 1 1 527A9EC2
 P 7100 1700
 F 0 "Q1" H 7100 1550 50  0000 R CNN
@@ -684,21 +682,21 @@ Connection ~ 6200 1900
 Wire Wire Line
 	7850 1600 7850 1700
 Wire Wire Line
-	6200 650  6200 750 
+	6200 650  6200 850 
 Wire Wire Line
 	7200 1500 7200 1350
 Wire Wire Line
 	6900 1700 6850 1700
 Wire Wire Line
-	6200 1450 6200 1250
+	6200 1150 6200 1500
 Connection ~ 6200 1350
 Text GLabel 6850 1100 1    60   Input ~ 0
 DIS_SIGNAL
 Connection ~ 6850 1700
 Wire Wire Line
-	6850 1900 6750 1900
+	6850 1900 6650 1900
 Wire Wire Line
-	6250 1900 6200 1900
+	6200 1900 6350 1900
 $Comp
 L R R8
 U 1 1 527AA6FD
@@ -711,9 +709,9 @@ F 3 "" H 6850 1400 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6850 1100 6850 1150
+	6850 1100 6850 1250
 Wire Wire Line
-	6850 1650 6850 1900
+	6850 1550 6850 1900
 Wire Wire Line
 	7200 1900 7200 2150
 Wire Wire Line
@@ -742,17 +740,17 @@ F 3 "~" H 4200 4150 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3050 3450 3050 3850
+	3050 3450 3050 3900
 Wire Wire Line
 	3050 3550 3150 3550
 Connection ~ 3050 3550
 Wire Wire Line
 	3150 4750 3050 4750
 Wire Wire Line
-	3050 4250 3050 4850
+	3050 4200 3050 4850
 Connection ~ 3050 4750
 Wire Wire Line
-	6100 4700 6100 4800
+	6100 4600 6100 4850
 Connection ~ 6100 4750
 Wire Wire Line
 	5350 4750 5250 4750
@@ -940,4 +938,7 @@ F 3 "" H 9550 950 60  0000 C CNN
 	1    9550 950 
 	1    0    0    -1  
 $EndComp
+Connection ~ 7600 1600
+Wire Wire Line
+	10050 5800 9950 5800
 $EndSCHEMATC
